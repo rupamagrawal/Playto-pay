@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 8000
 
 # Automatically run migrations prior to starting the production server bound to 0.0.0.0
-CMD ["sh", "-c", "python manage.py migrate && gunicorn config.wsgi:application --bind 0.0.0.0:8000"]
+CMD ["sh", "-c", "python manage.py migrate && python seed.py && gunicorn config.wsgi:application --bind 0.0.0.0:8000"]
