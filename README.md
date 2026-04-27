@@ -2,6 +2,20 @@
 
 Fully realized Playto intern challenge featuring a Django DRF backend, React + Tailwind Frontend, dynamic State Machine adherence, and declarative permissions models.
 
+## 🚀 Live Deployments
+- **Frontend (Vercel):** https://playto-pay.vercel.app
+- **Backend API (Render):** https://playto-pay-8ap5.onrender.com
+
+### 🔐 Test Credentials
+The database automatically seeds on deployment. You can log in immediately:
+*(Password is always `password123`)*
+
+- **Reviewer:** `admin@playtopay.com`
+- **Merchant (Under Review):** `merchant_one@test.com` 
+- **Merchant (Drafting):** `merchant_two@test.com`
+
+---
+
 ## Pre-Requisites
 - Python 3.10+
 - Node JS 18+
